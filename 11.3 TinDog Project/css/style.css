@@ -1,0 +1,114 @@
+.gradient-background,
+#footer {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.feature col {
+  float: left;
+  display: flux;
+  justify-content: space-around;
+}
+
+p {
+
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+h3>svg {
+  background-color: #e8ebed
+}
+
+.row {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border: 20px;
+}
+
+#testimonial {
+
+  background-color: rgb(242, 244, 244);
+}
+
+h1 {
+  text-align: left;
+}
+
+#title {
+  margin-bottom: 20px;
+}
+
+#image-box {
+  margin-bottom: 20px;
+}
+
+#pricing-header {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.pricing-card-title {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+#highlighted-button {
+  background-color: black;
+  color: white;
+}
+
+.text-bg-primary border-primary {
+  background-color: black;
+}
+
+#enterprise {
+  background-color: black;
+  color: white;
+}
+
+#free {
+  border-color: black;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.flex-column{
+   color: black;
+}
