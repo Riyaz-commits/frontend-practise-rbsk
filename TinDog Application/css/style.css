@@ -1,8 +1,9 @@
 .gradient-background,
 #footer {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-  background-size: 180% 180%;
+  background-size: 180% 200%;
   animation: gradient-animation 18s ease infinite;
+  width: 200%;
 }
 
 @keyframes gradient-animation {
@@ -111,4 +112,9 @@ a {
 
 .flex-column{
    color: black;
+}
+
+#footer{
+  display: flex;
+  flex-wrap: wrap;
 }
