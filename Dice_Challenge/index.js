@@ -19,18 +19,18 @@
 
  if(randomNumber1>randomNumber2)
  {
-document.querySelector('h1').innerHTML="Player 1 is the Winner"
+document.querySelector('h1').innerHTML="Bhanu is the Winner"
  }
  else  if(randomNumber1<randomNumber2)
 
     {
-document.querySelector('h1').innerHTML="Player 2 is the Winner"
+document.querySelector('h1').innerHTML="Manasa is the Winner"
 
 
     }
 
     else{
-       document.querySelector('h1').innerHTML="Match Draw. Try Again"
+       document.querySelector('h1').innerHTML="Match Draw.You Both Won . Happy Married Life "
  
     }
 
