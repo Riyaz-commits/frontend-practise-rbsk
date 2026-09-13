@@ -1,0 +1,31 @@
+{
+  "name": "riyaz-react-day2",
+  "version": "1.0.0",
+  "description": "This is day 2 learning of react by riyaz",
+  "homepage": "https://github.com/Riyaz-commits/frontend-practise-rbsk#readme",
+  "bugs": {
+    "url": "https://github.com/Riyaz-commits/frontend-practise-rbsk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riyaz-commits/frontend-practise-rbsk.git"
+  },
+  "license": "ISC",
+  "author": "Riyaz Basha Shaik",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
