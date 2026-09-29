@@ -50,3 +50,9 @@ object-fit: contain;
     border: 1px solid black;
 cursor: pointer;
 }
+
+.filter-btn{
+    margin: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
